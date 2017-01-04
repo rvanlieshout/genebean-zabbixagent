@@ -14,14 +14,16 @@
 
 [zabbix]
 name=Zabbix Official Repository - $basearch
-baseurl=http://repo.zabbix.com/zabbix/2.4/rhel/<%= @operatingsystemmajrelease %>/$basearch/
+#baseurl=http://repo.zabbix.com/zabbix/2.4/rhel/<%= @operatingsystemmajrelease %>/$basearch/
+baseurl=http://10.0.9.6/cobbler/repo_mirror/centos<%= @operatingsystemmajrelease %>-zabbix-latest
 enabled=1
 gpgcheck=1
 gpgkey=http://repo.zabbix.com/RPM-GPG-KEY-ZABBIX
 
 [zabbix-non-supported]
 name=Zabbix Official Repository non-supported - $basearch
-baseurl=http://repo.zabbix.com/non-supported/rhel/<%= @operatingsystemmajrelease %>/$basearch/
+#baseurl=http://repo.zabbix.com/non-supported/rhel/<%= @operatingsystemmajrelease %>/$basearch/
+baseurl=http://10.0.9.6/cobbler/repo_mirror/centos<%= @operatingsystemmajrelease %>-zabbix-non-supported-latest
 enabled=1
 gpgcheck=1
 gpgkey=http://repo.zabbix.com/RPM-GPG-KEY-ZABBIX

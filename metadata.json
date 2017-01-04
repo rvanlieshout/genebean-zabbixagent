@@ -1,8 +1,8 @@
 {
-  "name": "genebean-zabbixagent",
+  "name": "rvanlieshout-zabbixagent",
   "version": "2.6.0",
   "author": "Gene Liverman",
-  "summary": "This module manages the Zabbix Agent on Windows or Linux.",
+  "summary": "This module manages the Zabbix Agent on Windows or Linux; with custom repo for LICO",
   "license": "BSD-3-Clause",
   "source": "https://github.com:genebean/genebean-zabbixagent.git",
   "project_page": "https://github.com/genebean/genebean-zabbixagent",
